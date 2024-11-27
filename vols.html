@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyages - Recherche de Vols, Hôtels, et Voitures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Voyages</h1>
+        <nav>
+            <a href="vols.html">Vols</a>
+            <a href="les meilleures destinations.html">les meilleures destinations </a>
+            <a href="les hotels et hebergement.html">Hôtels</a>
+            <a href="location de voiture.html">Locations de Voitures</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section de Recherche de Vols -->
+        <section id="flights">
+            <h2>Rechercher des Vols</h2>
+            <form id="flight-search-form">
+                <label for="flight-from">Départ:</label>
+                <input type="text" id="flight-from" name="flight-from" placeholder="Ville de départ" required>
+
+                <label for="flight-to">Arrivée:</label>
+                <input type="text" id="flight-to" name="flight-to" placeholder="Ville d'arrivée" required>
+
+                <label for="flight-departure-date">Date de départ:</label>
+                <input type="date" id="flight-departure-date" name="flight-departure-date" required>
+
+                <label for="flight-return-date">Date de retour:</label>
+                <input type="date" id="flight-return-date" name="flight-return-date">
+
+                <button type="submit">Rechercher Vols</button>
+            </form>
+        </section>
+
+        
+ 
+    <footer>
+        <p>&copy; 2024 Voyages. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

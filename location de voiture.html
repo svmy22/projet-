@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voyages - Recherche de Vols, Hôtels, et Voitures</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Voyages</h1>
+        <nav>
+            <a href="vols.html">Vols</a>
+            <a href="les meilleures destinations.html">les meilleures destinations </a>
+            <a href="les hotels et hebergement.html">Hôtels</a>
+            <a href="location de voiture.html">Locations de Voitures</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Section de Recherche de Location de Voitures -->
+        <section id="car-rentals">
+            <h2>Rechercher une Location de Voiture</h2>
+            <form id="car-rental-search-form">
+                <label for="car-pickup-location">Lieu de prise en charge:</label>
+                <input type="text" id="car-pickup-location" name="car-pickup-location" placeholder="Ville ou aéroport" required>
+
+                <label for="car-pickup-date">Date de prise en charge:</label>
+                <input type="date" id="car-pickup-date" name="car-pickup-date" required>
+
+                <label for="car-dropoff-date">Date de restitution:</label>
+                <input type="date" id="car-dropoff-date" name="car-dropoff-date" required>
+
+                <button type="submit">Rechercher Voitures</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Voyages. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
